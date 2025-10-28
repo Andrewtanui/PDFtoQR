@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Upload Success</title>
+</head>
+<body>
+    <h1>Upload Successful!</h1>
+    <p>Your PDF has been uploaded. You can download it using the link below:</p>
+    <a href="/uploads/{{ filename }}">Download PDF</a>
+    <p>Scan the QR code below to access the PDF:</p>
+    <img src="/uploads/{{ filename }}.png" alt="QR Code">
+</body>
+</html>
